@@ -5,7 +5,8 @@
     <title>Caesar Cipher</title>
     <style>
     body {background-color: powderblue;}
-    h1   {color: white;}
+    h1   {color: white;
+    	 }
     p    {color: black;}
     </style>
   </head>
@@ -17,9 +18,10 @@
   		<input type="text" name="string" />
   		<p>Enter the shift factor</p>
   		<input type="number" name="shift" value="0" />
+  		<input type="submit" value="Encrypt" />
   	</form>
   	<p> 
-  		<%= result %>
+  		The encrypted string is <%= result %>  	
   	</p>
   </body>
 </center>
