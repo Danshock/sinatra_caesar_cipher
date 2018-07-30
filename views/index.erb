@@ -1,8 +1,26 @@
-
-
+<!DOCTYPE html>
 <html>
-<head>  </head>
-<body>
-	<p>The Secret number is <%= number %></p>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <title>Caesar Cipher</title>
+    <style>
+    body {background-color: powderblue;}
+    h1   {color: white;}
+    p    {color: black;}
+    </style>
+  </head>
+  <center>
+  	<body>
+  	<h1> CAESAR CIPHER </h1>
+  	<p> Please enter the sentence you wish to encrypt </p>
+  	<form>
+  		<input type="text" name="string" />
+  		<p>Enter the shift factor</p>
+  		<input type="number" name="shift" value="0" />
+  	</form>
+  	<p> 
+  		<%= result %>
+  	</p>
+  </body>
+</center>
 </html>
